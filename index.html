@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>order-summary-component</title>
+    <style>
+            body {
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              width: 100%;
+              height: 709;
+              background-color:#F2F2F2;
+             background-image: url("./pattern-background-desktop.svg");
+             background-repeat: no-repeat;
+             background-size: contain;
+
+
+
+
+
+            }
+            .card{
+
+              width: 327px;
+              height: 567px;
+              display: flex;
+              flex-direction: column;
+              align-content: center;
+              align-items:center;
+              justify-content:space-between;
+
+
+              background-color: white;
+              border-radius: 20px;
+              overflow: hidden;
+
+            }
+
+
+
+            .poto2{
+
+              max-width: 100%;
+
+
+            }
+
+      h1{
+        display: flex;
+            color:#1F2E55;
+            justify-content: center;
+
+
+      }
+      .middle{
+        display: flex;
+        justify-content:start;
+        flex-direction: column;
+        align-items: center;
+        color:  #717FA6;
+        font-size: 15px;
+
+
+      }
+      .musbox{
+        width: 85%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 11px;
+
+        background-color:  #F7F9FF;
+      }
+      .insidecont{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+      }
+
+
+      .plan{
+
+        display:flex;
+        flex-direction:column:
+        color: #1F2E55
+        font-size:16px;
+      }
+      .price{
+        color:#717FA6;
+       font-size: 16px;
+      }
+      .change{
+          color:
+      #382AE1;
+      font-size: 14px;
+      }
+      .payment{
+
+        display: flex;
+        justify-content:center;
+        background-color:#382AE1;
+        border-radius: 11px;
+        width: 85%
+      }
+      .paymetod{
+
+        color:white;
+        font-size:15px;
+        line-height: 20px
+      }
+      .cencel{
+        display: flex;
+        justify-content: center;
+        font-size: 15px;
+        color:#717FA6;
+      }
+      @media screen and (min-width:1400px){
+        .card {
+          width: 450px;
+          height: 697px;
+        }
+
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="card">
+        <div class="bay">
+          <img class="poto2" src="./illustration-hero.svg" />
+        </div>
+
+        <h1>Order summary</h1>
+        <div class="middle">
+          <div>you can listen to millions of song</div>
+          <div>audiobooks, and podcasts on any divice</div>
+          <div>anywhere you like</div>
+        </div>
+        <div class="musbox">
+          <img class="music" src="./icon-music.svg" />
+
+          <div class="insidecont">
+            <div class="plan">Annual plan</div>
+            <div class="price">$59.99/year</div>
+          </div>
+          <div class="change">Сhange</div>
+        </div>
+        <div class="payment">
+          <h2 class="paymetod">Proceed to payment</h2>
+        </div>
+        <h3 class="cencel">cencel order</h3>
+      </div>
+    </div>
+  </body>
+</html>
